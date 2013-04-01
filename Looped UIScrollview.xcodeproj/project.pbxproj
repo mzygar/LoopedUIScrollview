@@ -18,6 +18,8 @@
 		6E8882CD170A11AB00DF6E44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8882CC170A11AB00DF6E44 /* Default-568h@2x.png */; };
 		6E8882D0170A11AB00DF6E44 /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8882CF170A11AB00DF6E44 /* LSViewController.m */; };
 		6E8882D3170A11AB00DF6E44 /* LSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8882D1170A11AB00DF6E44 /* LSViewController.xib */; };
+		6E8882DC170A120A00DF6E44 /* LSSinglePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8882DA170A120A00DF6E44 /* LSSinglePageViewController.m */; };
+		6E8882DD170A120A00DF6E44 /* LSSinglePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8882DB170A120A00DF6E44 /* LSSinglePageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		6E8882CE170A11AB00DF6E44 /* LSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewController.h; sourceTree = "<group>"; };
 		6E8882CF170A11AB00DF6E44 /* LSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewController.m; sourceTree = "<group>"; };
 		6E8882D2170A11AB00DF6E44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LSViewController.xib; sourceTree = "<group>"; };
+		6E8882D9170A120A00DF6E44 /* LSSinglePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSinglePageViewController.h; sourceTree = "<group>"; };
+		6E8882DA170A120A00DF6E44 /* LSSinglePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSinglePageViewController.m; sourceTree = "<group>"; };
+		6E8882DB170A120A00DF6E44 /* LSSinglePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSSinglePageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				6E8882CF170A11AB00DF6E44 /* LSViewController.m */,
 				6E8882D1170A11AB00DF6E44 /* LSViewController.xib */,
 				6E8882BD170A11AB00DF6E44 /* Supporting Files */,
+				6E8882D9170A120A00DF6E44 /* LSSinglePageViewController.h */,
+				6E8882DA170A120A00DF6E44 /* LSSinglePageViewController.m */,
+				6E8882DB170A120A00DF6E44 /* LSSinglePageViewController.xib */,
 			);
 			path = "Looped UIScrollview";
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				6E8882CB170A11AB00DF6E44 /* Default@2x.png in Resources */,
 				6E8882CD170A11AB00DF6E44 /* Default-568h@2x.png in Resources */,
 				6E8882D3170A11AB00DF6E44 /* LSViewController.xib in Resources */,
+				6E8882DD170A120A00DF6E44 /* LSSinglePageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				6E8882C3170A11AB00DF6E44 /* main.m in Sources */,
 				6E8882C7170A11AB00DF6E44 /* LSAppDelegate.m in Sources */,
 				6E8882D0170A11AB00DF6E44 /* LSViewController.m in Sources */,
+				6E8882DC170A120A00DF6E44 /* LSSinglePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
