@@ -16,9 +16,10 @@
 
 - (id)initWithPageId:(NSString *)aPageId
 {
-    self=[super initWithNibName:@"LSSinglePageViewController" bundle:nil];
-    if (self) {
-        self.pageId=aPageId;
+    self = [super initWithNibName:@"LSSinglePageViewController" bundle:nil];
+    if (self)
+    {
+        self.pageId = aPageId;
     }
     return self;
 }
